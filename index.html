@@ -1,36 +1,24 @@
-
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Sample Deployment</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tiny Card</title>
   <style>
-    body {
-      color: #ffffff;
-      background-color: #007f3f;
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-    }
-    
-    h1 {
-      font-size: 500%;
-      font-weight: normal;
-      margin-bottom: 0;
-    }
-    
-    h2 {
-      font-size: 200%;
-      font-weight: normal;
-      margin-bottom: 0;
-    }
+    body{margin:0;display:flex;min-height:100vh;align-items:center;justify-content:center;background:#0b1220;font-family:system-ui,Segoe UI,Roboto;color:#e6eef8}
+    .card{width:320px;padding:16px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));box-shadow:0 8px 24px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+    h3{margin:0 0 6px;font-size:18px}
+    p{margin:0 0 12px;color:#9fb0c8;font-size:13px}
+    .btn{display:inline-block;padding:8px 12px;border-radius:10px;background:#7c5cff;color:#fff;text-decoration:none;font-weight:600}
   </style>
 </head>
 <body>
-  <div align="center">
-    <h1>Congratulations!</h1>
-    <h2>YOU HAVE WON A LOTTERY WORTH 100000000000000000000000000000!</h2>
-    <p>claim it now!</p>
+  <div class="card">
+    <h3>Tiny Attractive Card</h3>
+    <p>Compact, responsive, and dependency-free — perfect as a snippet or profile card.</p>
+    <a class="btn" href="#" onclick="alert('Hello!')">Click me</a>
   </div>
 </body>
 </html>
+
 
